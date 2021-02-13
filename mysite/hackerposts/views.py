@@ -10,8 +10,8 @@ def get_posts(request):
         'posts': posts
     }
 
-
     return render(request, 'posts.html', context=context)
+
 #    text = ''
 #    for post in posts:
 #       text += f'text' \
